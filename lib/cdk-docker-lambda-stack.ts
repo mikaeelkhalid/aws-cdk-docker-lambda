@@ -1,12 +1,10 @@
-import * as cdk from 'aws-cdk-lib';
+import { Duration, Stack, StackProps } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import * as lambda from 'aws-cdk-lib/aws-lambda'
 import path = require('path');
-import { Duration } from 'aws-cdk-lib';
 
-
-export class CdkDockerLambdaStack extends cdk.Stack {
-  constructor(scope: Construct, id: string, props?: cdk.StackProps) {
+export class CdkDockerLambdaStack extends Stack {
+  constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
     new lambda.DockerImageFunction(this, 'docker-lambda-function', {
