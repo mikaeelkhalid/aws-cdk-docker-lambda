@@ -1,8 +1,6 @@
-# Welcome to your CDK TypeScript project
+# Welcome to CDK Docker Lambda [TypeScript]
 
-This is a blank project for CDK development with TypeScript.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+[![Mikaeel Khalid](https://badgen.now.sh/badge/by/mikaeelkhalid/purple)](#)
 
 ## Useful commands
 
